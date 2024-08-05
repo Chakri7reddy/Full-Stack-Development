@@ -77,5 +77,5 @@ function main() {
     console.log(`ID: ${item.id}, Name: ${item.name}, Quantity: ${item.quantity}, Price: ${item.price}`);
 }
 
-// Call the main function to demonstrate (by Chakridhar Reddy)
+// Call the main function to demonstrate (by Lokireddy Chakridhar Reddy)
 main();

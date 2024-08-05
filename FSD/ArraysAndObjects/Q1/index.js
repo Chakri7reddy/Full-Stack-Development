@@ -59,5 +59,5 @@ function main() {
     console.log("Average of numbers:", average);
 }
 
-// Call the main function to demonstrate (by Chakridhar reddy)
+// Call the main function to demonstrate (by Lokireddy Chakridhar reddy)
 main();

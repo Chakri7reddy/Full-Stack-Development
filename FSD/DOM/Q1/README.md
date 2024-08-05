@@ -29,4 +29,4 @@ This web application allows users to input product data, such as product name, p
 - Sorting functionality is implemented using JavaScript array methods.
 - The charts dynamically update using JavaScript DOM manipulation.
 
-
+//By Lokireddy Chakridhar Reddy

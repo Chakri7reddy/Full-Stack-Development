@@ -24,3 +24,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainImage = document.getElementById('main-image');
     mainImage.src = 'https://via.placeholder.com/200';
 });
+//By Lokireddy Chakri dhar Reddy
