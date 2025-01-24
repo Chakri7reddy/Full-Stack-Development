@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundry Services</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+      }
+
+/* Navbar styles */
+nav {
+  background-color: #7aaa21;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.navbar-left,
+.navbar-right
+ {
+  display: inline-block;
+}
+
+.navbar-left  a {
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
+  text-align: center;
+  text-decoration:none;
+  font-size: 1.2em;
+}
+
+.navbar-left img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 15px;
+}
+.nav .middlex{
+  display: inline-block;
+  margin: 0 15px; /* Adjust the margin to add space between links */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+
+}
+
+.navbar-right {
+  display: inline-block;
+}
+
+.user-info {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff; /* Box background color */
+  color: #333; /* Text color */
+  border-radius: 5px;
+}
+
+
+      /* Hero Section styles */
+      .hero-section {
+        display: flex;
+        height: 1000vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("laundry-background.jpg") center/cover no-repeat;
+      }
+
+      .left-div {
+        margin-top: 55px;
+        width: 50%;
+        padding: 50px;
+        box-sizing: border-box;
+        color: white;
+      }
+
+      .right-div {
+        width: 50%;
+        overflow: hidden;
+      }
+      .right-div img {
+        margin-top: 40px;
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+      }
+
+      .cta-button {
+        padding: 15px 30px;
+        font-size: 1.2em;
+        text-decoration: none;
+        color: white;
+        background-color: #f7941d;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #e0821a;
+      }
+
+      /* Responsive styles */
+      @media (max-width: 768px) {
+        .hero-section {
+          flex-direction: column;
+        }
+
+        .left-div {
+          width: 100%;
+          text-align: center;
+        }
+
+        .right-div {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+   <!-- Navbar -->
+<nav style="font-size: 25px;>
+  <div class="navbar-left">
+    <img src="your-logo.png" alt="Logo" > </div>
+  <div class="middlex" >  <a href="#" >Home</a>
+ &nbsp;&nbsp;
+    <a href="#">Services</a>&nbsp;&nbsp;
+    <a href="#">About Us</a>&nbsp;&nbsp;
+    <a href="#">Contact Us</a>&nbsp;&nbsp;
+  </div>
+  <div class="navbar-right">
+    <span class="user-info">Your Name</span>
+  </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <!-- Left Div -->
+      <div class="left-div">
+        <h1>Quality Laundry Services</h1>
+        <p>
+          We take care of your clothes so you can focus on what matters.
+          Schedule a service today!
+        </p>
+        <a href="#" class="cta-button">Book a Service Today</a>
+      </div>
+
+      <!-- Right Div -->
+      <div class="right-div">
+        <!-- Image provided by the user -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvfvkKYfYBClgiSnauQzz00ZCnGIz9PNAX7g&usqp=CAU" />
+      </div>
+    </div>
+  </body>
+</html>

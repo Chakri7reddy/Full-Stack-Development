@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.3s ease; /* Transition for background color change */
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            transition: background-color 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        #whatsapp-icon {
+            background-color: #25D366;
+        }
+
+        #instagram-icon {
+            background-color: #405DE6;
+        }
+
+        #snapchat-icon {
+            background-color: #FFFC00;
+        }
+
+        #twitter-icon {
+            background-color: #1DA1F2;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#" id="whatsapp-icon" class="icon" onclick="changeBackgroundColor('whatsapp-icon')">&#x1F4F1;</a>
+    <a href="#" id="instagram-icon" class="icon" onclick="changeBackgroundColor('instagram-icon')">&#x1F3F7;</a>
+    <a href="#" id="snapchat-icon" class="icon" onclick="changeBackgroundColor('snapchat-icon')">&#x1F4F8;</a>
+    <a href="#" id="twitter-icon" class="icon" onclick="changeBackgroundColor('twitter-icon')">&#x1F426;</a>
+</nav>
+
+<script>
+    function changeBackgroundColor(iconId) {
+        const icon = document.getElementById(iconId);
+        const body = document.body;
+
+        // Get the background color of the clicked symbol
+        const bgColor = window.getComputedStyle(icon).getPropertyValue('background-color');
+
+        // Set the entire webpage background color
+        body.style.backgroundColor = bgColor;
+    }
+</script>
+
+</body>
+</html>

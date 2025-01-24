@@ -1,0 +1,36 @@
+body {
+    margin: 10vh 25vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    bottom: 0px; 
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    padding: 20px 330px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background: linear-gradient(to right, #45a049, #1e87f0);
+}

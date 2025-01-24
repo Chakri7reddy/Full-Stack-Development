@@ -1,0 +1,11 @@
+list1 = [11, -21, 0, 45, 66, -93]
+list2 = [32,4,-2,-6,7,-1,789, -9]
+print("List1 = ")
+for num in list1:
+    if num >= 0:
+       print(num, end = " ")
+print("\n")  
+print("List2 =  ")    
+for num in list2:
+    if num >= 0:
+       print(num, end = "  ")

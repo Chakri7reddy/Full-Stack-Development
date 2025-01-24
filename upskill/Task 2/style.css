@@ -1,0 +1,35 @@
+body {
+    background-color: pink; /* Step 3 */
+   font-size: 25px;
+}
+
+.head {
+    color: darkblue; /* Step 5 */
+}
+
+#bglime {
+    background-color: lime; /* Step 6 */
+   
+}
+.red-text {
+    color: red; /*  Step 7 */
+}
+p {
+    color: magenta; /* Step 8 */
+}
+
+#para {
+    color: black; /* Step 9 */
+    font-size: 35px; /* Step 10 */
+}
+
+ul li,
+ol li {
+    list-style-type: square;
+}
+
+ol li span {
+    font-weight: bold;
+    color: #333; /* Step 11 */
+    background-color: aqua;
+}
