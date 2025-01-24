@@ -1,0 +1,50 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.timer-setup {
+    margin-bottom: 20px;
+}
+
+.timer-setup label {
+    margin-right: 10px;
+}
+
+.timer-setup input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.timer-display {
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#startButton {
+    background-color: green;
+    color: white;
+}
+
+#pauseButton {
+    background-color: orange;
+    color: white;
+}
+
+#resetButton {
+    background-color: red;
+    color: white;
+}
